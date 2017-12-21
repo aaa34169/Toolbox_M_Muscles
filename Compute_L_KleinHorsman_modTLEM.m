@@ -55,12 +55,6 @@ d =[-0.0267;  -0.0294;   -0.0670];
 % -------------------------------------------------------------------------
 % Geometry length (data from Opensim)
 % -------------------------------------------------------------------------
-% % Lm(2) not used: length in meter of foot segment
-% Model.Lm(3) = 0.3964; % Length in meter of shank segment
-% % Lm(4) not used: length in meter of patella segment
-% Model.Lm(5) = 0.3978; % Length in meter of thigh segment
-% % Lm(6) = 0.1069; % Length in meter of pelvis segment (computed using regressions for HJC and LJC)
-% Model.Lm(6) = Segment(6).L; % No scaling
 % Lm(2) not used: length in meter of foot segment
 Model.Lm(3) = 0.3964; %0.4028; % Length in meter of shank segment
 % Lm(4) not used: length in meter of patella segment

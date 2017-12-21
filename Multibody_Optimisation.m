@@ -151,14 +151,6 @@ rVs13 = rVs12; % Lateral_contact_tibia
 rVs23 = [-0.000007; 0.016023; -0.026644]+tG2D; % TiCaL_tibia
 rVs33 = [0.001954; -0.001809; 0.027941]+tG2D; % CaFiL_fibula
 
-% % Virtual markers
-% rVs12 = [0.001553; 0.000275; 0.009531]; % Lateral_centre_calcaneus = Lateral_contact_tibia
-% rVs22 = [0.001653; -0.017121; -0.015714]; % TiCaL_calcaneus
-% rVs32 = [-0.022070; -0.016800; 0.025078]; % CaFiL_calcaneus
-% rVs13 = rVs12; % Lateral_contact_tibia
-% rVs23 = [-0.000007; 0.016023; -0.026644]; % TiCaL_tibia
-% rVs33 = [0.001954; -0.001809; 0.027941]; % CaFiL_fibula
-
 % Ligament lengths: distances (associated with joint 2)
 Joint(2).d(1,1) = norm(rVs22 - rVs23); % TiCaL length
 Joint(2).d(1,2) = norm(rVs32 - rVs33); % CaFiL length
